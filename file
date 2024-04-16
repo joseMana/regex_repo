@@ -1,0 +1,4 @@
+**Visual Studio Find Regex**
+
+Remove all Console.WriteLine
+^(\s*)(Console\.WriteLine.*)
