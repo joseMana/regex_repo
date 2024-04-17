@@ -2,3 +2,6 @@
 
 Remove all Console.WriteLine
 ^(\s*)(Console\.WriteLine.*)
+
+Remove all code comments
+(\t+|\s+|\r\n)((/\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+/)|(//.*))
