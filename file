@@ -5,3 +5,6 @@ Remove all Console.WriteLine
 
 Remove all code comments
 (\t+|\s+|\r\n)((/\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+/)|(//.*))
+
+FIND ALL METHOD VISUAL STUDIO REGEX
+\b(public|protected|private|internal)\s+(static\s+)?[\w<>,]+\s+\w+\s*\(.*\)\s*{?
