@@ -8,3 +8,6 @@ Remove all code comments
 
 FIND ALL METHOD VISUAL STUDIO REGEX
 \b(public|protected|private|internal)\s+(static\s+)?[\w<>,]+\s+\w+\s*\(.*\)\s*{?
+
+FIND ALL METHOD VISUAL STUDIO REGEX - ANGULAR TYPESCRIPT
+\w+\s*\([^)]*\)\s*:\s*\w+\s*{?
